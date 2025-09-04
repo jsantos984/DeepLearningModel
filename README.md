@@ -45,9 +45,7 @@ python src/predict.py --model_path models/mobilenetv2.keras --image_path path/to
 ---
 
 ## Results (example run)
-Training history from a previous experiment is included (`history.json`), along with the plot below:
-
-![Training Curve](plots/training_curve.png)
+Training history from a previous experiment is included (`history.json`)
 
 > *The performance metrics obtained are particularly noteworthy: precision (~92%), recall (~88%), and F1-score (~90%) indicate robust classification capabilities. The implementation of overfitting mitigation strategies, including L2 regularization and dynamic learning rate adjustment through ReduceLROnPlateau, proved effective in maintaining model stability while preserving predictive power. The early stopping mechanism ensured optimal model selection while preventing performance degradation.
 *
