@@ -1,6 +1,6 @@
 # Pneumonia X-ray – Deep Learning (Keras/TensorFlow)
 
-Public repository for a **Convolutional Neural Network** to detect **Pneumonia** from **chest X-ray** images.  
+Convolutional Neural Network to detect Pneumonia from chest X-ray images.  
 
 > Includes training/eval scripts, a ready-to-run MobileNetV2 baseline, plots, and saved models.
 
